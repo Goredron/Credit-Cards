@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Kreditní karta</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pozadi">
+        <div class="nadpis"><h3>CREDIT CARD DETAILS</h3></div>
+        <form action="">
+            <div class="input">
+                <label for="cn">Card Number:</label>
+                <br>
+                <input type="number" id="cn" name="Card-number" placeholder="1234 5678 9012 3456">
+            </div>
+
+            <div class="input">
+                <label for="Name-Card">Name On Card</label>
+                <br>
+                <input type="text" id="Name-Card" name="Name-Card" placeholder="Name Surname">
+            </div>
+            
+            <div class="input">
+
+                <div class="container">
+                    <div><label for="expiry">Expiry Date</label></div>
+                    <div><label for="CVV/CVN">CVV/CVN</label></div>
+                </div>
+
+                <div class="container">
+                    <input type="number" id="expiry" name="Expiry-Month" placeholder="01" min="01" max="12">
+                    <input type="number" id="expiry" name="Expiry-Year" placeholder="2024" min="2000" max="2050">
+                    <input type="number" id="CVV/CVN" name="CVV/CVN" placeholder="***" max="999">
+                </div>
+
+            </div>
+            
+            <div class="input">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
